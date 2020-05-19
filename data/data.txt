@@ -1,0 +1,2 @@
+{"search_word":"python","except_result":"python"}
+{"search_word":"java","except_result":"java"}

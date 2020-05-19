@@ -1,0 +1,13 @@
+open_br||"chrome"
+get_url||"https://exmail.qq.com/login/"
+wait_time||3
+click_el||'//*[@id="loginForm"]/div[3]/div[3]/a[1]'
+input||"//*[@id='inputuin']"||"{{input_user}}"
+wait_time||2
+input||"//*[@id='pp']"||"{{input_pwd}}"
+wait_time||2
+click_el||"//*[@id='btlogin']"
+wait_time||2
+except_result||"{{except_re}}"
+wait_time||2
+close_br

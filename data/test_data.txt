@@ -1,0 +1,9 @@
+open_br||"chrome"
+get_url||"https://www.baidu.com"
+wait_imp||2
+input||"//*[@id='kw']"||"{{search_word}}"
+wait_time||2
+click_el||"//*[@id='su']"
+wait_time||2
+except_result||"{{except_result}}"
+close_br
